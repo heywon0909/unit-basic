@@ -51,5 +51,11 @@ describe("Calculator", () => {
       cal.divide(0);
       expect(cal.value).toBe(Infinity);
     });
+
+    it("4/4 === 1", () => {
+      cal.set(4);
+      cal.divide(4);
+      expect(cal.value).toBe(1);
+    });
   });
 });
