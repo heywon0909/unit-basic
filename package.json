@@ -13,5 +13,6 @@
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0"
-  }
+  },
+  "packageManager": "yarn@4.3.1+sha224.934d21773e22af4b69a7032a2d3b4cb38c1f7c019624777cc9916b23"
 }
